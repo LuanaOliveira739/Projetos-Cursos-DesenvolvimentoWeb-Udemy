@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html> <!--inicio html-->
+    <head><!--inicio head-->
+        <title>Museu Nacional</title>
+        <meta charset="utf-8">
+        
+        <!--normalize-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        
+        <!--estilo css-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        
+        <!-- [if lt IE 9 ]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+        <![endif]
+        -->
+
+    </head><!--fim head-->
+<body> <!--inicio body-->
+        
+        <div id="container"> <!--inicio container-->
+
+        <header> <!--inicio cabeçalho-->
+                <div id="logo"><!--logo inicio-->
+                    <h1><a href=""> Museu Nacional </a></h1>
+                </div><!--logo fim-->
+        
+
+        <nav><!--inicio navegacao-->
+            <ul> <!--inicio menu -->
+                <li><a href="home.hmtl">Home</a></li>
+                <li><a href="exposicao.hmtl">Exposição</a></li>
+                <li><a href="pesquisa.hmtl">Pesquisa</a></li>
+                <li><a href="acervo.hmtl">Acervo</a></li>
+                <li><a href="videos.hmtl">Videos</a></li>
+                <li><a href="fotos.hmtl">Fotos</a></li>
+                <li><a href="contato.hmtl">Contato</a></li>
+            </ul> <!--fim menu -->
+        </nav>  <!--fim navegacao-->
+        </header> <!--fim cabeçalho-->
+   
+
+            <div id="principal"><!-- inicio area principal-->
+                
+                <div id="conteudo"><!--inicio conteudo-->
+                    <section id="capa"><!--inicio capa-->
+                        <img src="imagem/museu.png">
+                    </section><!--fim capa-->
+
+                    <section id="postagens"><!--inicio postagens-->
+
+                        <article id="videos"><!--inicio conheça museu-->
+                            <h3> Conheça o Museu  </h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article><!--inicio conheça museu-->
+
+                        <article id="mapa"><!--inicio como chegar-->
+                            <h3>Mapa - Encontre o Museu</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064455939912!2d-43.2287175854388!3d-22.905755043591856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1657115914819!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article><!--inicio como chegar-->
+
+                        <article id="exposicoes"><!--inicio informação exposicao-->
+                            <h3>Exposições</h3>
+                            <ul><!--inicio menu exposicao-->
+                                <li>
+                                    <a href="">Os Assustadores Insetos</a>
+                                </li>
+                                <li>
+                                    <a href="">O Cranio de Luzia</a>
+                                </li>
+                                <li>
+                                    <a href="">Preguiça Gigante</a>
+                                </li>
+                                <li>
+                                    <a href="">Teresa Cristina: A Imperatriz</a>
+                                </li>
+                                <li>
+                                    <a href="">Arte com Dinossaros</a>
+                                </li>
+                            </ul><!--fim menu exposicao-->
+                        </article><!--fim informação exposicao-->
+
+                        <article id="historia"><!--inicio post 200 anos-->
+                            <h3>200 Anos de Historias</h3>
+                            <p>"O Museu Nacional é uma instituição científica surgida no Brasil, em 1818, e possui departamentos relacionados a diferentes áreas do conhecimento, tais como antropologia, geologia, botânica, mineralogia etc. Surgido durante o Período Joanino, o museu foi sempre uma referência na produção de conhecimento e um local de acesso à cultura. Em junho de 2018, o Museu Nacional completou 200 anos de existência."</p>
+                            <a href="www.brasilescola.uol.com.br/historiab/historia-museu-nacional.htm"><strong>Veja Mais</strong></a>
+                        </article><!--fim post 200 anos-->
+                    
+                    </section><!--fim postagens-->
+
+                </div><!--fim conteudo-->
+            
+
+                    <aside><!-- inicio area lateral-->
+                    <section id="depoimento"><!--inicio depoimento-->
+                        <img src="imagem/depoimento.png">
+                    </section><!--fim depoimento-->
+                    
+                    <section id="visita"><!--inicio verifica data visita-->
+                        <h4>Faça uma Visita</h4>
+                        <form><!--inicio formulario-->
+                            <fieldset><!--inicio cx formulario-->
+                                <legend>Selecione uma data</legend>
+
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtde de pessoas</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                            </fieldset><!--fim cx formulario-->
+
+                            <input class="botao" type="submit" value="Verificar Disponibilidade"><!--botao enviar da cx formulario-->
+
+                        </form><!--fim formulario-->
+                    </section><!--fim verifica data visita-->
+
+                    <section id="galeria"><!--inicio galeria-->
+
+                    
+                        <h4>Galeria de Fotos</h4>
+                        <a href="">
+                            <img src="imagem/imagem1.jpg" height="93px" width="93px" alt="descricao imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="imagem/imagem2.jpg" height="93px" width="93px" alt="descricao imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="imagem/imagem3.jpg" height="93px" width="93px" alt="descricao imagem">
+                        </a>
+
+                        <a href="">
+                            <img src="imagem/imagem4.jpg" height="93px" width="93px" alt="descricao imagem">
+                        </a>
+
+                    </section><!--fim galeria-->    
+                    </aside><!--fim da area lateral-->
+                
+                    <footer><!--inicio rodape-->
+                        <p>
+                            <a href="">Home</a>
+                            <a href="">Exposição</a>
+                            <a href="">Pesquisa</a>
+                            <a href="">Acervo</a>
+                            <a href="">Videos</a>
+                            <a href="">Fotos</a>
+                            <a href="">Contato</a>
+                        </p>
+                        <p> 2022 <a href="">Museu Nacional</a>- Todos os Direitos Reservados</p>
+                        <!--<h4>&copy; Lumiem 2022</h4>-->
+                    </footer><!--fim rodape-->
+                                        
+                </div><!--fim area principal-->    
+
+        </div> <!--fim do container-->
+
+</body> <!--fim body-->
+
+    
+
+</html><!--fim do html-->
